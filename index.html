@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>RPS</title>
+</head>
+
+<body>
+    <h1>Rock, Paper, Scissors :)</h1>
+    <h2>You're playing against the computer. First to 5 wins!</h2>
+
+    <h3><span id="user-point">0</span> - <span id="computer-point">0</span></h3>
+    <p id="outcome-text"></p>
+
+    <div class="user-choices">
+        <button id="rock"><img src="photos/rocks.png" alt="rock"></button>
+        <button id="paper"><img src="photos/toilet-paper.png" alt="toilet-paper"></button>
+        <button id="scissors"><img src="photos/scissors.png" alt="scissors"></button>
+    </div>
+
+    <div id="selections">
+        <div id="user-selections">
+            <h3>Player</h3>
+            <ul class="user-selection"></ul>
+        </div>
+        <div id="computer-selections">
+            <h3>Computer</h3>
+            <ul class="computer-selection"></ul>
+        </div>
+    </div>
+</body>
+
+</html>
